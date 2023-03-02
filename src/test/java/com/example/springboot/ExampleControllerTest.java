@@ -62,7 +62,7 @@ class ExampleControllerTest {
                 new SearchObjectParamParameter()
                     .someKebabString("foo")
                     .someSnakeString("bar")
-                    .someSnakeString("foobar"),
+                    .someCamelString("foobar"),
                 null
             ));
     }
